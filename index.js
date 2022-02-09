@@ -1,7 +1,7 @@
 const express = require('express')
 const projectRoutes = require('./routes/projectRoutes');
 const testimonialRoutes = require('./routes/testimonialsRoutes');
-const contactRoutes = require('./routes/contactRoutes');
+const contactRoutes = require('./routes/contactRoute');
 
 const app = express();
 app.use(express.json());
