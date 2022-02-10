@@ -7,6 +7,7 @@ const fixArrayId = require('../helper')
 let projects =[
     { 
         id:1, 
+        details:"fsdsfsfsfssfdfdsfsdfs",
         title: "Calculator",
         github:"https://woolworks.netlify.app",
         live:"https://github.com/Kyle2409/Pos-woolworks",
@@ -15,6 +16,7 @@ let projects =[
     },
     { 
         id:2, 
+        details:"fsdsfsfsfssfdfdsfsdfs",
         title: "Woolworks",
         netlify: "https://woolworks.netlify.app",
         github: "https://github.com/Kyle2409/Pos-woolworks",
@@ -22,6 +24,7 @@ let projects =[
     },
     { 
         id:3, 
+        details:"fsdsfsfsfssfdfdsfsdfs",
         title: "Calculator",
         netlify: "https://friendly-brattain-8ec312.netlify.app",
             github: "https://github.com/Kyle2409/BMI-final",
@@ -30,6 +33,7 @@ let projects =[
     },
     { 
         id:4, 
+        details:"fsdsfsfsfssfdfdsfsdfs",
         title: "Calculator",
         netlify: "https://woolworks.netlify.app",
         github: "https://github.com/Kyle2409/Pos-woolworks",
@@ -51,8 +55,8 @@ app.get("/:id",(req,res) => {
 //CREATE A PROJECT (push to array)
 //Create a project(push to an array)
 app.post("/", (req, res) => {
-    let { title, img, github, live } =req.body;
-    if (!title || !img || !github || !live)
+    let { title, img, github,details, live } =req.body;
+    if (!title || !img || !github || !live||!details)
     res.status(400).send ({ msg: "not all information sent"});
 
     let newProject = {
@@ -70,13 +74,14 @@ app.post("/", (req, res) => {
 app.put('/:id' , (req,res) => {
 let project = projects.find((project) => project.id == req.params.id);
 if (!project) res.status(404).send({ msg: "project not found"});
-let { title,img,github,live} = req.body;
+let { title,img,github,live,details} = req.body;
 
 //write details to project
 if(title) project.title = title;
 if(img) project.img = img;
 if(github) project.github = github;
 if(live) project.live = live;
+if(details) project.details = details;
 
 res.send(projects);
 });

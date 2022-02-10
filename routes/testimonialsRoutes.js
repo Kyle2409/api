@@ -7,6 +7,7 @@ const fixArrayId = require('../helper')
 let testimonials =[
     { 
         id:1, 
+        details:"fadgnsdmpmcamcpamcmapcmascmasmcasmcasmc",
         title: "Colleague",
         name:"Nadeem Johnson",
         img:"https://i.postimg.cc/Jhs8ZxqN/Nadeem.jpg",
@@ -14,12 +15,14 @@ let testimonials =[
     },
     { 
         id:2, 
+        details:"fadgnsdmpmcamcpamcmapcmascmasmcasmcasmc",
         title: "Lecturer at Life Choices",
         name:"Alex Sexwale",
         img:"https://i.postimg.cc/Nfzq0qRB/Alex.jpg",
     },
     { 
         id:3, 
+        details:"fadgnsdmpmcamcpamcmapcmascmasmcasmcasmc",
         title: "Colleague",
         name:"Random user",
         img:"https://i.postimg.cc/bJdZG1GW/Hannah.jpg",
@@ -27,6 +30,7 @@ let testimonials =[
     },
     { 
         id:4, 
+        details:"fadgnsdmpmcamcpamcmapcmascmasmcasmcasmc",
         title: "Colleague",
         name:"Hannah Dalwai",
         img:"https://i.postimg.cc/bJdZG1GW/Hannah.jpg",
