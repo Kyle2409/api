@@ -10,7 +10,7 @@ let projects =[
         title: "Calculator",
         github:"https://woolworks.netlify.app",
         live:"https://github.com/Kyle2409/Pos-woolworks",
-        img:"https://picsum.photos/200/300?random=1",
+        img:"https://i.postimg.cc/hvZwhTzp/Screenshot-from-2021-10-27-11-00-24.png",
 
     },
     { 
@@ -18,14 +18,14 @@ let projects =[
         title: "Woolworks",
         netlify: "https://woolworks.netlify.app",
         github: "https://github.com/Kyle2409/Pos-woolworks",
-        img:"https://picsum.photos/200/300?random=1",
+        img:"https://i.postimg.cc/hvZwhTzp/Screenshot-from-2021-10-27-11-00-24.png",
     },
     { 
         id:3, 
         title: "Calculator",
         netlify: "https://friendly-brattain-8ec312.netlify.app",
             github: "https://github.com/Kyle2409/BMI-final",
-        img:"https://picsum.photos/200/300?random=1",
+        img:"https://i.postimg.cc/hvZwhTzp/Screenshot-from-2021-10-27-11-00-24.png",
 
     },
     { 
@@ -33,7 +33,7 @@ let projects =[
         title: "Calculator",
         netlify: "https://woolworks.netlify.app",
         github: "https://github.com/Kyle2409/Pos-woolworks",
-        img:"https://picsum.photos/200/300?random=1",
+        img:"https://i.postimg.cc/hvZwhTzp/Screenshot-from-2021-10-27-11-00-24.png",
 
     }
 ];

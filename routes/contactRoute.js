@@ -12,12 +12,12 @@ app.post('/',(req, res) => {
       });
       
       const mailOptions = {
-        from: 'email',
+        from: email,
         to: 'mcbkyle0@gmail.com',
         subject: 'New Contact from portfolio',
         text: `${name} has contacted you
         
-        Please contact them back on ${contact}
+        Please contact them back on ${email}
 
         ${message}
         `,

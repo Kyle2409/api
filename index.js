@@ -1,11 +1,12 @@
 const express = require('express')
+const cors = require('cors')
 const projectRoutes = require('./routes/projectRoutes');
 const testimonialRoutes = require('./routes/testimonialsRoutes');
 const contactRoutes = require('./routes/contactRoute');
 
 const app = express();
 app.use(express.json());
-
+app.use(cors())
 app.get('/',(req, res) => {
     res.send({msg:"Welcome to Kyle's API"})
 })
