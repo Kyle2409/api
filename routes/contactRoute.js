@@ -18,7 +18,7 @@ app.post('/',(req, res) => {
       
       const mailOptions = {
         from: email,
-        to: 'mcbkyle0@gmail.com',
+        to: 'kylemcb.24@gmail.com',
         subject: 'New Contact from portfolio',
         text: `${name} has contacted you
         
