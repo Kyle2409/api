@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express.Router();
 const nodemailer = require('nodemailer');
-require("dotenv").config;
+require("dotenv").config();
 app.post('/',(req, res) => {
     let{name,email,message} = req.body;
     const transporter = nodemailer.createTransport({
